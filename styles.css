@@ -1,0 +1,78 @@
+:root {
+  --primary: #f0e8c2;
+  --secondary: #573a37;
+  --tertiary: #573824;
+  --quaternary: #291b1a;
+  --quinary: #71717a;
+  --senary: #09090b;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: var(--quinary);
+  font-family: 'Roboto', sans-serif;
+  line-height: 150%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--tertiary);
+  background-image: url('./assets/background-cupcake.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h1,
+h2,
+strong {
+  color: var(--senary);
+}
+
+.card {
+  background-color: var(--primary);
+  border-radius: 1.5rem;
+  margin: auto;
+  max-width: 800px;
+  padding: 1.5rem;
+  width: 84%;
+}
+
+.card img {
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.card__content section {
+  margin-top: 1.5rem;
+}
+
+.card header h1 {
+  font-size: 2.5rem;
+}
+
+.card__infos {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.card__ingredients ul {
+  margin-left: 1.5rem;
+}
+
+.card__ingredients ul li::marker {
+  color: #09090b;
+}
+
+footer {
+  color: var(--primary);
+  margin-top: 1.5rem;
+  text-align: center;
+}
